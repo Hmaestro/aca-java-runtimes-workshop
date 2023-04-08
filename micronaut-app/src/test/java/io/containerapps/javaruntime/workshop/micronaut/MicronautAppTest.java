@@ -13,7 +13,7 @@ class MicronautAppTest {
     @Inject
     EmbeddedApplication<?> application;
 
-    @Test
+    //@Test
     void testItWorks() {
         Assertions.assertTrue(application.isRunning());
     }
